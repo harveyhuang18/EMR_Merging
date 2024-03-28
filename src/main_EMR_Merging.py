@@ -39,6 +39,8 @@ def apply_vector(vector, pretrained_checkpoint):#, scaling_coef=1.0):
             new_state_dict[key] = pretrained_state_dict[key] + vector[key]
     pretrained_model.load_state_dict(new_state_dict, strict=False)
     return pretrained_model
+
+
 def EMR_merge(task_vectors):
     sum_param = {}
     n2p = []
@@ -66,16 +68,13 @@ def EMR_merge(task_vectors):
             scales[m] += torch.mean(torch.abs(param))
             pass
         Vector_unified[n] =  param_max * flag
-
     new_scales = torch.zeros(len(task_vectors))
     for m in range(len(task_vectors)):
         for n in Vector_unified:
             p = Vector_unified[n] * masks[n][m]
             new_scales[m] += torch.mean(torch.abs(p))
     rescales = scales / new_scales
-
     return Vector_unified, masks, rescales
-
 
 
 exam_datasets = ['SUN397', 'Cars', 'RESISC45', 'EuroSAT', 'SVHN', 'GTSRB', 'MNIST', 'DTD'] # SUN397 | Cars | RESISC45 | EuroSAT | SVHN | GTSRB | MNIST | DTD
@@ -94,12 +93,7 @@ task_vectors = [
     TaskVector(pretrained_checkpoint, '/remote-home/yepeng2/ADAMerging/checkpoints/'+model+'/'+dataset_name+'/finetuned.pt') for dataset_name in exam_datasets
 ]
 
-# task_vector_sum = sum(task_vectors)
-
-# scaling_coef_ = 0.3
 Vector_unified, masks, rescales = EMR_merge(task_vectors)
-
-# log.info('*'*20 + 'scaling_coef:' + str(scaling_coef_) + '*'*20)
 
 accs = []
 for i in range(len(exam_datasets)):
