@@ -1,7 +1,7 @@
 # EMR-Merging
 We realize data-less and high-performance model merging.
 
-We provide the code for merging ViT models. In the future, we will release the code under different settings including NLP and multi-modal.
+We provide the code for merging ViT models. In the future, we will release the code under different settings including NLP, PEFT, and multi-modal.
 
 # Get Started
 
