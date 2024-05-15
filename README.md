@@ -31,7 +31,7 @@ Run EMR-Merging (Ours)
 > python main_emr_merging.py
 
 
-## Acknowledgement
+# Acknowledgement
 Our implementation references the code below, thanks to them. 
 - AdaMerging: https://github.com/EnnengYang/AdaMerging
 
