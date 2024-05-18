@@ -12,7 +12,7 @@ The Google Drive folder is: [task_vectors_checkpoints](https://drive.google.com/
 
 
 ### Datasets
-Refer to dataset processing in the [task_vectors](https://github.com/mlfoundations/task_vectors).
+Refer to dataset processing in the [task_vectors](https://github.com/mlfoundations/task_vectors) and [AdaMerging](https://github.com/EnnengYang/AdaMerging).
 
 
 
