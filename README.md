@@ -9,6 +9,9 @@ We provide the code for merging ViT models. In the future, we will release the c
 
 EMR-Merging requires no additional training. We merge models finetuned on different tasks and evaluate the merged model.
 
+### Dependencies
+Please follow [task_vectors](https://github.com/mlfoundations/task_vectors) to install the dependencies.
+
 ### Checkpoints
 
 You can download the fine-tuned checkpoints from the [task_vectors#checkpoints](https://github.com/mlfoundations/task_vectors#checkpoints).
