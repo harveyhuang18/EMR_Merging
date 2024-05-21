@@ -5,7 +5,7 @@ The success of pretrain-finetune paradigm brings about the release of numerous m
 
 > In the (a) Merging Procedure, we merge task-specific vectors into a unified task vector and light-weight task-specific modulators to modulate direction and amplitude. During the (b) Inference Procedure, we apply the corresponding mask and rescaler to the unified task vector to obtain a specific task vector. The process of (c)Task-specific Direction and Amplitude Modulation includes obtaining task-specific masks and scalers.
 <center>
-<img src="./method_main.png" alt="EMR-Merging"/>
+<img src="./method_main.jpg" alt="EMR-Merging"/>
 </center>
 
 We realize data-less and high-performance model merging.
