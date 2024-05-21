@@ -1,7 +1,7 @@
 # EMR-Merging
 This repository is the official implementation of EMR-Merging.
 
-We realize data-less and high-performance model merging.
+We realize tuning-free and high-performance model merging.
 
 We provide the code for merging ViT models. In the future, we will release the code under different settings including NLP, PEFT, and multi-modal.
 
