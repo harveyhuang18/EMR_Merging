@@ -1,6 +1,11 @@
 # EMR-Merging
 This repository is the official implementation of EMR-Merging.
 
+> In the (a) Merging Procedure, we merge task-specific vectors into a unified task vector and light-weight task-specific modulators to modulate direction and amplitude. During the (b) Inference Procedure, we apply the corresponding mask and rescaler to the unified task vector to obtain a specific task vector. The process of (c)Task-specific Direction and Amplitude Modulation includes obtaining task-specific masks and scalers.
+<center>
+<img src="./method_main.png" alt="EMR-Merging"/>
+</center>
+
 We realize data-less and high-performance model merging.
 
 We provide the code for merging ViT models. In the future, we will release the code under different settings including NLP, PEFT, and multi-modal.
