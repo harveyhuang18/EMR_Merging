@@ -78,7 +78,7 @@ def emr_merge(task_vectors):
 exam_datasets = ['SUN397', 'Cars', 'RESISC45', 'EuroSAT', 'SVHN', 'GTSRB', 'MNIST', 'DTD'] # SUN397 | Cars | RESISC45 | EuroSAT | SVHN | GTSRB | MNIST | DTD
 model = 'ViT-B-32'
 args = parse_arguments()
-args.home = './home'
+args.home = 'home/emr-merging' # type your home path here
 args.data_location = args.home + '/data'
 args.model = model
 args.save = args.home + '/checkpoints/' + model
