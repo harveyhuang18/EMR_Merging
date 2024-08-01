@@ -1,11 +1,23 @@
 # EMR-Merging
+
+## What's New:
+
+We release the checkpoints when merging 30 ViT-B/16 models [here](https://drive.google.com/drive/folders/1KZv7RHIuNGzvjaVBJ7zkUxP1tG-4bGlI?usp=sharing). All the models are finetuned from [google/vit-base-patch16-224](https://huggingface.co/google/vit-base-patch16-224). All the datasets are open-source and can be found in the paper's references. We will also release them soon.
+
+The checkpoints of RoBERTa models finetuned on the GLUE benchmark are from DARE ([arxiv](https://arxiv.org/abs/2311.03099), [code](https://github.com/yule-BUAA/MergeLM)). You can download them [here](https://huggingface.co/vanillaOVO/roberta_base_glue_ckpts).
+
+The IA3 checkpoints are released by TIES-Merging ([arxiv](https://arxiv.org/abs/2306.01708), [code](https://github.com/prateeky2806/ties-merging/tree/main)). You can download them [here](https://drive.google.com/drive/folders/1V2-SLOgK248TQBMP2i_cEdQnxB2jM2E1?usp=sharing).
+
+The [BEiT3](https://arxiv.org/abs/2208.10442) checkpoints are released by Microsoft [here](https://github.com/microsoft/unilm/tree/master/beit3). We merge models finetuned on **BEiT3-base**. The finetuned checkpoints include *beit3_base_patch16_480_vqa.pth*, *beit3_base_patch16_480_coco_captioning.pth*, *beit3_base_patch16_384_coco_retrieval.pth*, *beit3_base_patch16_224_nlvr2.pth*, and *beit3_base_patch16_224_in1k.pth*. You can follow the doc and download the corresponding pre-trained and finetuned checkpoints.
+
+
+## Get Started
+
 This repository is the official implementation of EMR-Merging.
 
 We realize tuning-free and high-performance model merging.
 
 We provide the code for merging ViT models. In the future, we will release the code under different settings including NLP, PEFT, and multi-modal.
-
-# Get Started
 
 EMR-Merging requires no additional training. We merge models finetuned on different tasks and evaluate the merged model.
 
@@ -22,7 +34,7 @@ Refer to dataset processing in the [task_vectors](https://github.com/mlfoundatio
 
 ## Eval
 
-Run Task Atithmetic [paper](https://arxiv.org/abs/2212.04089)
+Run Task Arithmetic [paper](https://arxiv.org/abs/2212.04089)
 > python main_task_arithmetic.py
 
 Run TIES-MERGING [paper](https://arxiv.org/abs/2306.01708)
@@ -39,6 +51,8 @@ Run EMR-Merging (Ours)
 
 # Acknowledgement
 Our implementation references the code below, thanks to them. 
+- DARE: https://github.com/yule-BUAA/MergeLM
+
 - AdaMerging: https://github.com/EnnengYang/AdaMerging
 
 - Task Arithmetic: https://github.com/mlfoundations/task_vectors
