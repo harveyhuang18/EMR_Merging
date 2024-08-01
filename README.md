@@ -2,7 +2,7 @@
 
 ## What's New:
 
-We release the checkpoints when merging 30 ViT-B/16 models [here](https://drive.google.com/drive/folders/1KZv7RHIuNGzvjaVBJ7zkUxP1tG-4bGlI?usp=sharing). All the models are finetuned from [google/vit-base-patch16-224](https://huggingface.co/google/vit-base-patch16-224). All the datasets are open-source and can be found in the paper's references. We will also release them soon.
+We release the checkpoints when merging 30 ViT-B/16 models [here](https://drive.google.com/drive/folders/1KZv7RHIuNGzvjaVBJ7zkUxP1tG-4bGlI?usp=sharing). All the models are finetuned from [google/vit-base-patch16-224](https://huggingface.co/google/vit-base-patch16-224). All the datasets for these checkpoints are open-source and can be found in the paper's references. We will also release them soon.
 
 The checkpoints of RoBERTa models finetuned on the GLUE benchmark are from DARE ([arxiv](https://arxiv.org/abs/2311.03099), [code](https://github.com/yule-BUAA/MergeLM)). You can download them [here](https://huggingface.co/vanillaOVO/roberta_base_glue_ckpts).
 
