@@ -10,7 +10,7 @@ The IA3 checkpoints are released by TIES-Merging ([arxiv](https://arxiv.org/abs/
 
 The [BEiT3](https://arxiv.org/abs/2208.10442) checkpoints are released by Microsoft [here](https://github.com/microsoft/unilm/tree/master/beit3). We merge models finetuned on **BEiT3-base**. The finetuned checkpoints include *beit3_base_patch16_480_vqa.pth*, *beit3_base_patch16_480_coco_captioning.pth*, *beit3_base_patch16_384_coco_retrieval.pth*, *beit3_base_patch16_224_nlvr2.pth*, and *beit3_base_patch16_224_in1k.pth*. You can follow the doc and download the corresponding pre-trained and finetuned checkpoints.
 
-The GPT-2 [checkpoints](https://huggingface.co/collections/tanganke/gpt-2-models-fine-tuned-on-tasks-from-glue-benchmark-664ab37d9e33e622679f541b) and their corresponding datasets are from [FusionBench](https://github.com/tanganke/fusion_bench), a benchmark for model merging. 
+The GPT-2 [checkpoints](https://huggingface.co/collections/tanganke/gpt-2-models-fine-tuned-on-tasks-from-glue-benchmark-664ab37d9e33e622679f541b) and their corresponding datasets are from FusionBench ([arxiv](https://arxiv.org/abs/2406.03280), [code](https://github.com/tanganke/fusion_bench)), a benchmark for model merging. 
 
 ## Get Started
 
@@ -56,7 +56,7 @@ Our implementation references the code below, thanks to them.
 
 - DARE: https://github.com/yule-BUAA/MergeLM
 
-- Fusion Bench: https://github.com/tanganke/fusion_bench
+- FusionBench: https://github.com/tanganke/fusion_bench
 
 - AdaMerging: https://github.com/EnnengYang/AdaMerging
 
