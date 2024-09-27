@@ -40,3 +40,7 @@ Run EMR-Merging (Ours)
 ## Results
 
 Results for our EMR-Merging are shown in [logs](./logs). 
+
+## Extension: Merging 30 ViTs
+
+We release the [checkpoints](https://drive.google.com/drive/folders/1KZv7RHIuNGzvjaVBJ7zkUxP1tG-4bGlI?usp=sharing) when merging 30 ViT-B/16 models. All the models are finetuned from [google/vit-base-patch16-224](https://huggingface.co/google/vit-base-patch16-224). All the datasets for these checkpoints are open-source and can be found in the paper's references. 
