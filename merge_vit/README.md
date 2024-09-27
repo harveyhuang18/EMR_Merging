@@ -6,11 +6,21 @@
 
 Please follow [task_vectors](https://github.com/mlfoundations/task_vectors) to install the dependencies.
 
-### Checkpoints and Datasets
+### Checkpoints 
 
 You can download the fine-tuned checkpoints from the [task_vectors#checkpoints](https://github.com/mlfoundations/task_vectors#checkpoints).
 The Google Drive folder is: [task_vectors_checkpoints](https://drive.google.com/drive/folders/1u_Tva6x0p6oxu5Eo0ZZsf-520Cc_3MKw)
-Refer to dataset processing in the [task_vectors](https://github.com/mlfoundations/task_vectors) and [AdaMerging](https://github.com/EnnengYang/AdaMerging).
+
+Please follow [doc](merge_vit/checkpoints/README.md) to place these checkpoints.
+
+### Datasets
+
+Please follow [Adamerging](https://github.com/EnnengYang/AdaMerging?tab=readme-ov-file#datasets) to download the datasets.
+
+Please follow [doc](merge_vit/data/README.md) to place these datasets.
+
+
+
 
 ## Eval
 
