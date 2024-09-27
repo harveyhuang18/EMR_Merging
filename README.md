@@ -8,7 +8,7 @@ We provide the code for merging ViT models. We will release the code under diffe
 
 EMR-Merging requires no additional training. We merge models finetuned on different tasks and evaluate the merged model.
 
-<img src='./png/method_main.png'>
+<img src='./png/method_main.pdf'>
 
 **Method Framework**: In the (a) Merging Procedure, we merge task-specific vectors into a unified task vector and lightweight task-specific modulators to modulate direction and amplitude. During the (b) Inference Procedure, we apply the corresponding mask and rescaler to the unified task vector to obtain a specific task vector. The process of (c)Task-specific Direction and Amplitude Modulation includes obtaining task-specific masks and scalers.
 
