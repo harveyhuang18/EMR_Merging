@@ -17,7 +17,7 @@ EMR-Merging requires no additional training. We merge models finetuned on differ
 
 ## Checkpoints for other benchmarks (Code coming soon)
 
-We release the [checkpoints](https://drive.google.com/drive/folders/1KZv7RHIuNGzvjaVBJ7zkUxP1tG-4bGlI?usp=sharing) when merging 30 ViT-B/16 models. All the models are finetuned from [google/vit-base-patch16-224](https://huggingface.co/google/vit-base-patch16-224). All the datasets for these checkpoints are open-source and can be found in the paper's references. 
+
 
 The RoBERTa [checkpoints](https://huggingface.co/vanillaOVO/roberta_base_glue_ckpts) finetuned on the GLUE benchmark are from DARE ([arxiv](https://arxiv.org/abs/2311.03099), [code](https://github.com/yule-BUAA/MergeLM)). Please follow [DARE](https://github.com/yule-BUAA/MergeLM) to download the GLUE dataset.
 
