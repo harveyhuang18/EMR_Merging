@@ -1,6 +1,6 @@
 # EMR-Merging
 
-This is the official implementation of our NeurIPS 2024 paper **EMR-Merging: Tuning-Free High-Performance Model Merging** ([arxiv](https://arxiv.org/abs/2405.17461)).
+This is the official implementation of our NeurIPS 2024 Spotlight Paper: **EMR-Merging: Tuning-Free High-Performance Model Merging** ([arxiv](https://arxiv.org/abs/2405.17461)).
 
 We realize tuning-free and high-performance model merging.
 
