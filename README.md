@@ -56,4 +56,7 @@ Our implementation references the code below, thanks to them.
 
 - Model Soups: https://github.com/mlfoundations/model-soups
 
+# Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=harveyhuang18/EMR_Merging&type=Timeline)](https://star-history.com/#harveyhuang18/EMR_Merging&Timeline)
 
