@@ -78,3 +78,6 @@ We also release them here.
 | Animal-10N    | torchvision.datasets.ImageFolder   | http://dm.kaist.ac.kr/datasets/animal-10n/                   |
 | Garbage       | torchvision.datasets.ImageFolder   | https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification |
 | Fruits-360    | torchvision.datasets.ImageFolder   | https://www.kaggle.com/datasets/moltean/fruits               |
+
+
+The code for merging 30 ViT-B/16 models using EMR-Merging is in [code](https://github.com/harveyhuang18/EMR_Merging/blob/main/merge_vit/src/main_emr_30_vits.py).
