@@ -80,4 +80,8 @@ We also release them here.
 | Fruits-360    | torchvision.datasets.ImageFolder   | https://www.kaggle.com/datasets/moltean/fruits               |
 
 
+
+
 The code for merging 30 ViT-B/16 models using EMR-Merging is in [code](https://github.com/harveyhuang18/EMR_Merging/blob/main/merge_vit/src/main_emr_30_vits.py).
+
+The pre-processing for gray-scale datasets, including MNIST, FashionMNIST, EMNIST, are trans_gray in [code](https://github.com/harveyhuang18/EMR_Merging/blob/main/merge_vit/src/main_emr_30_vits.py) while others are trans_rgb in [code](https://github.com/harveyhuang18/EMR_Merging/blob/main/merge_vit/src/main_emr_30_vits.py).
