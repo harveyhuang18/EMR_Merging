@@ -1,0 +1,10 @@
+2024-10-09 06:37:02,816 - root - INFO - ********** Run starts. **********
+2024-10-09 06:37:02,816 - root - INFO - configuration is Namespace(language_model_name='gpt2', batch_size=16, merging_method_name='emr_merging', gpu=2, ckpt_path='/remote-home/yepeng2/Mario/ckpts/gpt2', device='cuda:2', dataset_names=['cola', 'sst2', 'mrpc', 'qqp', 'mnli', 'qnli', 'rte'], dataset_name='rte')
+2024-10-09 06:37:02,816 - root - INFO - configuration is Namespace(language_model_name='gpt2', batch_size=16, merging_method_name='emr_merging', gpu=2, ckpt_path='/remote-home/yepeng2/Mario/ckpts/gpt2', device='cuda:2', dataset_names=['cola', 'sst2', 'mrpc', 'qqp', 'mnli', 'qnli', 'rte'], dataset_name='rte')
+2024-10-09 06:37:36,093 - root - INFO - acc on cola: 0.7277085185050964
+2024-10-09 06:38:22,493 - root - INFO - acc on sst2: 0.9025229215621948
+2024-10-09 06:38:41,041 - root - INFO - acc on mrpc: 0.7916666865348816
+2024-10-09 06:54:06,830 - root - INFO - acc on qqp: 0.8811278939247131
+2024-10-09 06:59:47,936 - root - INFO - acc on mnli: 0.8108218312263489
+2024-10-09 07:02:01,769 - root - INFO - acc on qnli: 0.8484349250793457
+2024-10-09 07:02:16,380 - root - INFO - acc on rte: 0.6642599105834961

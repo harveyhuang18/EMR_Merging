@@ -1,0 +1,34 @@
+2024-10-09 06:21:05,725 - root - INFO - ********** Run starts. **********
+2024-10-09 06:21:05,725 - root - INFO - configuration is Namespace(language_model_name='roberta-base', merging_method_name='emr_merging', batch_size=64, gpu=2, device='cuda:2', dataset_names=['cola', 'sst2', 'mrpc', 'stsb', 'qqp', 'mnli', 'qnli', 'rte'])
+2024-10-09 06:21:27,901 - accelerate.utils.other - WARNING - Detected kernel version 4.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2024-10-09 06:21:28,152 - root - INFO - perform model merging method emr_merging:
+2024-10-09 06:21:28,152 - root - INFO - get performance...
+2024-10-09 06:21:34,002 - root - INFO - test performance on dataset cola: {'eval_loss': 0.8068, 'eval_matthews_correlation': 0.3996, 'eval_runtime': 5.8445, 'eval_samples_per_second': 178.457, 'eval_steps_per_second': 0.855}
+2024-10-09 06:21:34,859 - accelerate.utils.other - WARNING - Detected kernel version 4.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2024-10-09 06:21:34,872 - root - INFO - perform model merging method emr_merging:
+2024-10-09 06:21:34,873 - root - INFO - get performance...
+2024-10-09 06:21:36,154 - root - INFO - test performance on dataset sst2: {'eval_loss': 0.2224, 'eval_accuracy': 0.9335, 'eval_runtime': 1.2737, 'eval_samples_per_second': 684.599, 'eval_steps_per_second': 3.14}
+2024-10-09 06:21:37,033 - accelerate.utils.other - WARNING - Detected kernel version 4.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2024-10-09 06:21:37,055 - root - INFO - perform model merging method emr_merging:
+2024-10-09 06:21:37,055 - root - INFO - get performance...
+2024-10-09 06:21:37,769 - root - INFO - test performance on dataset mrpc: {'eval_loss': 0.4823, 'eval_accuracy': 0.8627, 'eval_f1': 0.9034, 'eval_averaged_scores': 0.8831, 'eval_runtime': 0.7092, 'eval_samples_per_second': 575.279, 'eval_steps_per_second': 2.82}
+2024-10-09 06:21:38,716 - accelerate.utils.other - WARNING - Detected kernel version 4.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2024-10-09 06:21:38,726 - root - INFO - perform model merging method emr_merging:
+2024-10-09 06:21:38,726 - root - INFO - get performance...
+2024-10-09 06:21:40,470 - root - INFO - test performance on dataset stsb: {'eval_loss': 1.006, 'eval_pearson': 0.8273, 'eval_spearmanr': 0.8282, 'eval_averaged_scores': 0.8277, 'eval_runtime': 1.7375, 'eval_samples_per_second': 863.299, 'eval_steps_per_second': 3.453}
+2024-10-09 06:21:41,434 - accelerate.utils.other - WARNING - Detected kernel version 4.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2024-10-09 06:21:41,443 - root - INFO - perform model merging method emr_merging:
+2024-10-09 06:21:41,443 - root - INFO - get performance...
+2024-10-09 06:22:33,182 - root - INFO - test performance on dataset qqp: {'eval_loss': 0.664, 'eval_accuracy': 0.8972, 'eval_f1': 0.8628, 'eval_averaged_scores': 0.88, 'eval_runtime': 51.7349, 'eval_samples_per_second': 781.484, 'eval_steps_per_second': 3.054}
+2024-10-09 06:22:34,417 - accelerate.utils.other - WARNING - Detected kernel version 4.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2024-10-09 06:22:34,431 - root - INFO - perform model merging method emr_merging:
+2024-10-09 06:22:34,431 - root - INFO - get performance...
+2024-10-09 06:22:48,826 - root - INFO - test performance on dataset mnli: {'eval_loss': 0.9276, 'eval_accuracy': 0.8545, 'eval_runtime': 14.3897, 'eval_samples_per_second': 682.083, 'eval_steps_per_second': 2.71}
+2024-10-09 06:22:50,487 - accelerate.utils.other - WARNING - Detected kernel version 4.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2024-10-09 06:22:50,502 - root - INFO - perform model merging method emr_merging:
+2024-10-09 06:22:50,502 - root - INFO - get performance...
+2024-10-09 06:22:58,771 - root - INFO - test performance on dataset qnli: {'eval_loss': 0.2574, 'eval_accuracy': 0.8957, 'eval_runtime': 8.2648, 'eval_samples_per_second': 660.998, 'eval_steps_per_second': 2.662}
+2024-10-09 06:23:05,263 - accelerate.utils.other - WARNING - Detected kernel version 4.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+2024-10-09 06:23:05,272 - root - INFO - perform model merging method emr_merging:
+2024-10-09 06:23:05,272 - root - INFO - get performance...
+2024-10-09 06:23:05,933 - root - INFO - test performance on dataset rte: {'eval_loss': 0.5376, 'eval_accuracy': 0.7437, 'eval_runtime': 0.6567, 'eval_samples_per_second': 421.827, 'eval_steps_per_second': 3.046}
