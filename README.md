@@ -14,21 +14,6 @@ EMR-Merging requires no additional training. We merge models finetuned on differ
 
 
 
-
-## Checkpoints for other benchmarks (Code coming soon)
-
-
-
-The RoBERTa [checkpoints](https://huggingface.co/vanillaOVO/roberta_base_glue_ckpts) finetuned on the GLUE benchmark are from DARE ([arxiv](https://arxiv.org/abs/2311.03099), [code](https://github.com/yule-BUAA/MergeLM)). Please follow [DARE](https://github.com/yule-BUAA/MergeLM) to download the GLUE dataset.
-
-The IA3 [checkpoints](https://drive.google.com/drive/folders/1V2-SLOgK248TQBMP2i_cEdQnxB2jM2E1?usp=sharing) are released by TIES-Merging ([arxiv](https://arxiv.org/abs/2306.01708), [code](https://github.com/prateeky2806/ties-merging/tree/main)).
-
-The BEiT3 [checkpoints](https://arxiv.org/abs/2208.10442) are released by Microsoft [here](https://github.com/microsoft/unilm/tree/master/beit3). We merge models finetuned on **BEiT3-base**. The finetuned checkpoints include *beit3_base_patch16_480_vqa.pth*, *beit3_base_patch16_480_coco_captioning.pth*, *beit3_base_patch16_384_coco_retrieval.pth*, *beit3_base_patch16_224_nlvr2.pth*, and *beit3_base_patch16_224_in1k.pth*. You can follow the doc and download the corresponding pre-trained and finetuned checkpoints.
-
-The GPT-2 [checkpoints](https://huggingface.co/collections/tanganke/gpt-2-models-fine-tuned-on-tasks-from-glue-benchmark-664ab37d9e33e622679f541b) and their corresponding datasets are from FusionBench ([arxiv](https://arxiv.org/abs/2406.03280), [code](https://github.com/tanganke/fusion_bench)), a benchmark for model merging. 
-
-
-
 ## Citation
 If you find this project helpful for you, feel free to cite our paper:
 ```
@@ -41,7 +26,7 @@ If you find this project helpful for you, feel free to cite our paper:
 ```
 
 
-# Acknowledgement
+## Acknowledgement
 Our implementation references the code below, thanks to them.
 
 - DARE: https://github.com/yule-BUAA/MergeLM
@@ -56,6 +41,9 @@ Our implementation references the code below, thanks to them.
 
 - Model Soups: https://github.com/mlfoundations/model-soups
 
+- BEiT-3: https://github.com/microsoft/unilm/tree/master/beit3
+
+  
 # Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=harveyhuang18/EMR_Merging&type=Timeline)](https://star-history.com/#harveyhuang18/EMR_Merging&Timeline)
