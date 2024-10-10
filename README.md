@@ -1,12 +1,9 @@
 # EMR-Merging
 
 This is the official implementation of our NeurIPS 2024 Spotlight Paper: **EMR-Merging: Tuning-Free High-Performance Model Merging** ([arxiv](https://arxiv.org/abs/2405.17461)).
-
 We realize tuning-free and high-performance model merging.
 
-We provide the code for merging ViT models. We will release the code under different settings including NLP, PEFT, and multi-modal.
-
-EMR-Merging requires no additional training. We merge models finetuned on different tasks and evaluate the merged model.
+We provide the code for merging [ViT models](./merge_vit), [language models](./merge_lm) (including RoBERTa and GPT-2), and [BEiT-3 models](./merge_beit3).
 
 <img src='./png/method-main.jpg'>
 
@@ -44,7 +41,7 @@ Our implementation references the code below, thanks to them.
 - BEiT-3: https://github.com/microsoft/unilm/tree/master/beit3
 
   
-# Star History
+## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=harveyhuang18/EMR_Merging&type=Timeline)](https://star-history.com/#harveyhuang18/EMR_Merging&Timeline)
 
