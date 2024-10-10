@@ -16,5 +16,6 @@ You can follow the doc and download the checkpoints. Please put them in [./model
 
 ## Eval
 
+```
 run script_{in1k, nlvr2, retrieval, vqav2, captioning}.sh
-
+```
