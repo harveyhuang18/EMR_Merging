@@ -54,7 +54,7 @@ def EMR_merge(task_vectors):
             mask = (param * flag)>0
             masks[n].append(mask)
             param_abs = torch.abs(mask*param)
-            param_max  += param_abs#= torch.where(param_abs>param_max, param_abs, param_max)
+            param_max = torch.where(param_abs>param_max, param_abs, param_max)
             scales[m] += torch.mean(torch.abs(param))
             pass
         Vector_unified[n] =  param_max * flag
