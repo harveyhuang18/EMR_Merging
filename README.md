@@ -14,12 +14,18 @@ We provide the code for merging [ViT models](./merge_vit), [language models](./m
 ## Citation
 If you find this project helpful for you, feel free to cite our paper:
 ```
-@article{huang2024emr,
-  title={EMR-Merging: Tuning-Free High-Performance Model Merging},
-  author={Huang, Chenyu and Ye, Peng and Chen, Tao and He, Tong and Yue, Xiangyu and Ouyang, Wanli},
-  journal={arXiv preprint arXiv:2405.17461},
-  year={2024}
+@inproceedings{huang_emrmerging,
+ author = {Huang, Chenyu and Ye, Peng and Chen, Tao and He, Tong and Yue, Xiangyu and Ouyang, Wanli},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+ pages = {122741--122769},
+ publisher = {Curran Associates, Inc.},
+ title = {EMR-Merging: Tuning-Free High-Performance Model Merging},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/dda5cac5272a9bcd4bc73d90bc725ef1-Paper-Conference.pdf},
+ volume = {37},
+ year = {2024}
 }
+
 ```
 
 
